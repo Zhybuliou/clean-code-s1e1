@@ -6,40 +6,42 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="page">
-    <section class="top-page-element">
-      <img class="image" src="./eisenhower-matrix.jpg"><a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </section>
-    <section class="centered-page-element">
-      <p id="add-element-to-list"><label for="new-task" class="label-h3">Add Item</label>
-        <div class="task-row-wrapper"><input id="new-task"class="task input-text" type="text">
-          <button class="btn">Add</button>
-        </div>
-      </p>
-      <h3 class="label-h3">Todo</h3>
-      <ul class="all-tasks" id="incomplete-tasks">
-        <li class="list"><input class="input-checkbox" type="checkbox"><p class="task-label">Pay Bills</p><input class="input-text task" type="text">
-          <button class="edit btn">Edit</button>
-          <button class="delete btn">
-            <img class="btn-image" src="./remove.svg">
-          </button>
-        </li>
-        <li class="edit-mode list"><input class="input-checkbox" type="checkbox"><p class="task-label">Go Shopping</p><input type="text" value="Go Shopping" class="task input-text">
-          <button class="edit btn">Save</button>
-          <button class="delete btn">
-            <img class="btn-image" src="./remove.svg">
-          </button>
-        </li>
-      </ul>
-      <h3 class="label-h3">Completed</h3>
-      <ul class="all-tasks" id="completed-tasks">
-        <li class="list"><input class="input-checkbox" type="checkbox" checked><p class="task-label">See the Doctor</p><input type="text" class="task input-text">
-          <button class="edit btn">Edit</button>
-          <button class="delete btn">
-            <img class="btn-image" src="./remove.svg">
-          </button>
-        </li>
-      </ul>
-    <section/>
+    <article>
+      <section class="top-page-element">
+        <img class="image" src="./eisenhower-matrix.jpg" alt="eisenhower matrix"><a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      </section>
+      <section class="centered-page-element">
+        <p id="add-element-to-list"><label for="new-task" class="label-h3">Add Item</label>
+          <div class="task-row-wrapper"><input id="new-task"class="task input-text" type="text">
+            <button class="btn">Add</button>
+          </div>
+        </p>
+        <h3 class="label-h3">Todo</h3>
+        <ul class="all-tasks" id="incomplete-tasks">
+          <li class="list"><input class="input-checkbox" type="checkbox"><p class="task-label">Pay Bills</p><input class="input-text task" type="text">
+            <button class="edit btn">Edit</button>
+            <button class="delete btn">
+              <img class="btn-image" src="./remove.svg" alt="">
+            </button>
+          </li>
+          <li class="edit-mode list"><input class="input-checkbox" type="checkbox"><p class="task-label">Go Shopping</p><input type="text" value="Go Shopping" class="task input-text">
+            <button class="edit btn">Save</button>
+            <button class="delete btn">
+              <img class="btn-image" src="./remove.svg" alt="">
+            </button>
+          </li>
+        </ul>
+        <h3 class="label-h3">Completed</h3>
+        <ul class="all-tasks" id="completed-tasks">
+          <li class="list"><input class="input-checkbox" type="checkbox" checked><p class="task-label">See the Doctor</p><input type="text" class="task input-text">
+            <button class="edit btn">Edit</button>
+            <button class="delete btn">
+              <img class="btn-image" src="./remove.svg" alt="">
+            </button>
+          </li>
+        </ul>
+      </section>
+    </article>
     <script src="app.js"></script>
   </body>
 </html>
